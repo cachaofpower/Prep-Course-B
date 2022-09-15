@@ -21,7 +21,7 @@ function devolverString(str) {
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
-    resta = x + y;
+    resta = x - y;
     return(resta);
   }
   
@@ -177,42 +177,55 @@ function devolverString(str) {
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
     // Ejemplo: "hello world" pasaría a ser "hello world!"
     // Tu código:
+      var nuevaCadena = str + "!";
+      return nuevaCadena;
 
-    
-    
-  }
+    }
   
   function combinarNombres(nombre, apellido) {
     // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
     // Ejemplo: "Soy", "Henry" -> "Soy Henry"
     // Tu código:
+    var nuevaCadena2 = nombre + " " + apellido;
+    return nuevaCadena2;
+        
   }
   
   function obtenerSaludo(nombre) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
+    var nuevaCadena3 = "Hola" + " "+ nombre + "!";
+    return nuevaCadena3;
   }
   
   function obtenerAreaRectangulo(alto, ancho) {
     // Retornar el area de un rectángulo teniendo su altura y ancho
     // Tu código:
+    var area = alto * ancho;
+    return area;
   }
   
   function retornarPerimetro(lado) {
     //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
     //Escribe tu código aquí
+    var perimetro = lado + lado + lado + lado;
+    return perimetro;
   }
   
   function areaDelTriangulo(base, altura) {
     //Desarrolle una función que calcule el área de un triángulo.
     //Escribe tu código aquí
+    var areat = (base * altura)/2;
+    return areat;
   }
   
   function deEuroAdolar(euro) {
     //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
     //como parámetro un número de euros y calcule el cambio en dólares.
     //Escribe tu código aquí
+    var cambio = euro * 1.20;
+    return cambio;
   }
   
   // No modificar nada debajo de esta línea
