@@ -14,28 +14,28 @@ function devolverString(str) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
-    suma = x + y;
+    var suma = x + y;
     return(suma);
   }
   
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
-    resta = x - y;
+    var resta = x - y;
     return(resta);
   }
   
   function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
-    mult = x * y;
+    var mult = x * y;
     return(mult);
   }
   
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
-    div = x/y;
+    var div = x/y;
     return(div);
   }
   
@@ -86,8 +86,8 @@ function devolverString(str) {
   function obtenerResto(x, y) {
     // Obten el resto de la división de "x" entre "y"
     // Tu código:
-    x % y;
-    return(x % y);
+    var resto = x % y;
+    return(resto);
 
   }
   
@@ -95,7 +95,7 @@ function devolverString(str) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
-    if(num % 2 == 0){
+    if(num % 2 === 0){
       return(true);
     }else{
       return(false);
@@ -106,7 +106,7 @@ function devolverString(str) {
     // Devuelve "true" si "num" es impar
     // De lo contrario, devuelve "false"
     // Tu código:
-    if(num % 2 != 0){
+    if(num % 2 !== 0){
       return(true);
     }else{
       return(false);
@@ -117,21 +117,21 @@ function devolverString(str) {
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
     // Tu código:
-    cuadrado = num * num;
+    var cuadrado = num * num;
     return(cuadrado);
   }
   
   function elevarAlCubo(num) {
     // Devuelve el valor de "num" elevado al cubo
     // Tu código:
-    cubo = num * num * num
+    var cubo = num * num * num
     return(cubo);
   }
   
   function elevar(num, exponent) {
     // Devuelve el valor de "num" elevado al exponente dado en "exponent"
     // Tu código:
-    resp = Math.pow(num, exponent)
+    var resp = Math.pow(num, exponent)
     return(resp);
 
   }
@@ -139,14 +139,14 @@ function devolverString(str) {
   function redondearNumero(num) {
     // Redondea "num" al entero más próximo y devuélvelo
     // Tu código:
-    resp2 = Math.round(num);
+    var resp2 = Math.round(num);
     return(resp2);
   }
   
   function redondearHaciaArriba(num) {
     // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
     // Tu código:
-    resp3 = Math.ceil(num);
+    var resp3 = Math.ceil(num);
     return(resp3);
   }
   
@@ -154,7 +154,7 @@ function devolverString(str) {
     //Generar un número al azar entre 0 y 1 y devolverlo
     //Pista: investigá qué hace el método Math.random()
     // Tu código:
-    resp4 = Math.random(0,1)
+    var resp4 = Math.random(0,1)
     return(resp4);
   }
   
